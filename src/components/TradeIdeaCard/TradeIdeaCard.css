@@ -1,0 +1,43 @@
+.trade-idea-card {
+  background-color: var(--color-background-primary);
+  padding: var(--spacing-l);
+  margin-bottom: var(--spacing-s);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+}
+
+.trade-idea-card:hover {
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.trade-idea-card h3 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin: 0 0 var(--spacing-s) 0;
+}
+
+.summary {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin: 0 0 var(--spacing-m) 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-caption);
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .trade-idea-card {
+    width: 100%;
+  }
+}

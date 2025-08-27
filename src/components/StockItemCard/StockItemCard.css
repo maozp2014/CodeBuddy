@@ -1,0 +1,62 @@
+.stock-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-m);
+  margin-bottom: var(--spacing-s);
+  background-color: var(--color-background-primary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+}
+
+.stock-item-card:hover {
+  background-color: var(--color-background-secondary);
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.stock-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.symbol {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+.name {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-secondary);
+}
+
+.price-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+.change {
+  font-size: var(--font-size-caption);
+}
+
+.change.positive {
+  color: var(--color-positive);
+}
+
+.change.negative {
+  color: var(--color-negative);
+}
+
+@media (max-width: 768px) {
+  .stock-item-card {
+    width: 100%;
+  }
+}

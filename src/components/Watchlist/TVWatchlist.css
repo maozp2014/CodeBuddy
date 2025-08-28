@@ -1,0 +1,38 @@
+.tv-watchlist {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+}
+
+.tv-watchlist table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tv-watchlist th {
+  background: #f8f9fa;
+  color: #6c757d;
+  font-weight: 500;
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tv-watchlist th:hover {
+  background: #e9ecef;
+}
+
+.tv-watchlist td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.tv-watchlist tr:hover {
+  background: #f8f9fa;
+}
+
+.tv-watchlist tr:last-child td {
+  border-bottom: none;
+}

@@ -4,6 +4,7 @@ import StockItemCard from './components/StockItemCard/StockItemCard';
 import MarketIndexTicker from './components/MarketIndexTicker/MarketIndexTicker';
 import TradeIdeaCard from './components/TradeIdeaCard/TradeIdeaCard';
 import StockDetailPanel from './components/StockDetailPanel/StockDetailPanel';
+import Watchlist from './components/Watchlist/Watchlist';
 
 const TestPage = () => {
   // 模拟数据
@@ -56,6 +57,7 @@ const TestPage = () => {
 
   return (
     <div style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto' }}>
+      <Watchlist />
       <SectionHeader title="美股金融信息平台组件测试" />
       
       <SectionHeader title="股票条目卡片" />

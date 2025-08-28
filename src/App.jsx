@@ -1,8 +1,8 @@
-import TestPage from './TestPage';
+import WatchlistDemo from './WatchlistDemo';
 import './App.css'
 
 function App() {
-  return <TestPage />;
+  return <WatchlistDemo />;
 }
 
 export default App
